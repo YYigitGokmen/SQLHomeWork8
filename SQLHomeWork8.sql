@@ -9,7 +9,7 @@ CREATE TABLE employee (
 );
 
 Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
-EKLENDİ
+    Mockaro sitesinden EKLENDİ
 SELECT * FROM employee
 
 Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
@@ -21,5 +21,17 @@ WHERE name LIKE 'E%'
 Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 DELETE FROM employee
 WHERE id = 5;
+
+DELETE FROM employee
+WHERE id = 4;
+
+DELETE FROM employee
+WHERE id = 3;
+
+DELETE FROM employee
+WHERE id = 2;
+
+DELETE FROM employee
+WHERE id = 1;
 
 SELECT * FROM employee
